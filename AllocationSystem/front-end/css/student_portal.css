@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    padding: 24px;
+    background: rgb(2, 2, 27);
+    justify-content: space-between;
+    color:#fff;
+    font-size: large;
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+}
+i{
+    animation: 0.3s ease;
+}
+i:hover{
+    background: rgb(41, 41, 43) ;
+    border-radius: 8px;
+    border: 0.5px solid gray;
+    padding: 8px;
+}
+.head{
+    font-family: poppins ;
+    font-size: 1.4rem;
+}
+form{
+    margin: 20% auto;
+    width: 90vw;
+}
+
+input[type='submit'], button{
+    background:  rgb(2, 2, 27);
+    color:#fff;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    margin: 32px 20vw;
+}
+input[type='checkbox']{
+    accent-color: rgb(2, 2, 27) ;
+    width:40px;
+}
+p, span{
+    font-weight: bolder;
+    margin-bottom: 12px;
+    color:#223344;
+}
+ul{
+    margin-bottom: 12px;
+    color:rgb(75, 73, 73);
+}
